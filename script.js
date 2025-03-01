@@ -12,8 +12,8 @@ if (channelName) {
 	const player1 = document.getElementById("player1");
 	const player2 = document.getElementById("player2");
 	
-	player1.src = `https://player.twitch.tv/?channel=${channelName1}&parent=${domain}`;
-	player1.src = `https://player.twitch.tv/?channel=${channelName2}&parent=${domain}`;
+	player1.src = `https://player.twitch.tv/?channel=${channel1Name}&parent=${domain}`;
+	player1.src = `https://player.twitch.tv/?channel=${channel2Name}&parent=${domain}`;
 	
 	document.title = "multi-twitch";
 }
