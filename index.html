@@ -8,22 +8,16 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<div id="container">
-		<div class="player-container">
-			<iframe
-				id="player1"
-				class="player"
-				allowfullscreen>
-			</iframe>
-		</div>
-		<div class="player-container">
-			<iframe
-				id="player2"
-				class="player"
-				allowfullscreen>
-			</iframe>
-		</div>
-	</div>
-    <script src="script.js"></script>
+    <div id="container">
+        <div class="player-container">
+            <div id="player1" class="player"></div>
+        </div>
+        <div class="player-container">
+            <div id="player2" class="player"></div>
+        </div>
+    </div>
+
+    <button onclick="switchMute()">
+        <i class="fas fa-exchange-alt"></i> Switch Mute
+    </button>
 </body>
-</html>
