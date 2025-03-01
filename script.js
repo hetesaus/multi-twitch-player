@@ -5,8 +5,8 @@ function getQueryParam(param) {
 	return urlParams.get(param);
 }
 
-const channel1Name = getQueryParam("channel").split(",")[0];
-const channel2Name = getQueryParam("channel2").split(",")[1];
+const channel1Name = getQueryParam("channel1");
+const channel2Name = getQueryParam("channel2");
 
 if (channel1Name) {
 	const player1 = document.getElementById("player1");
